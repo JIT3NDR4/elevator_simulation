@@ -1,0 +1,14 @@
+appName: elevator
+
+replicasCount: 1
+
+image:
+  name: elevator
+  tag: v1
+
+container:
+  port: 8000
+
+service:
+  port: 8000
+  nodePort: 30456
